@@ -2,11 +2,12 @@
   "name": "current-project-2",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "type": "module",
   "scripts": {
-    "start": "node bot.js",
-    "devStart": "nodemon bot.js"
+    "start": "node dist/bot.js",
+    "devStart": "nodemon src/bot.js",
+    "build": "babel src -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "nodemon": "^2.0.6"
   }
 }
