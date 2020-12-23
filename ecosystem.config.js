@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
         name: 'db-the-oddball',
-        script: 'bot.js',
+        script: 'dist/bot.js',
         watch: '.',
         env: {
                 'NODE_ENV': 'development',
