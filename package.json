@@ -1,5 +1,5 @@
 {
-  "name": "Discord Bot - The Oddball",
+  "name": "discord-bot-the-oddball",
   "version": "1.0.0",
   "description": "",
   "main": "src/bot.js",
