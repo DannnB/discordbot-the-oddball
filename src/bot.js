@@ -28,6 +28,9 @@ client.on('message', msg => {
   if (msg.content == 'love') {
     msg.react("❤️")
   }
+  if (msg.content == 'hate') {
+    msg.react("😡")
+  }
 
   if (msg.content === `${BOT_PREFIX}${MOD_ME_COMMAND}`) {
     modUser(msg.member)
